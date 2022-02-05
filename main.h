@@ -7,6 +7,13 @@
 
 #ifndef MAIN_H_
 #define MAIN_H_
+
+#define BUF_SIZE    1024
+// indexes in info array
+#define AUDIO_CLOCK_STATE           0
+#define DAC_SAMPLE_READY       1
+#define BUFFER_SWITCH               2
+
 #define P9_41   (1 << 16)
 #define MOSI    P9_30
 #define MISO    P9_29

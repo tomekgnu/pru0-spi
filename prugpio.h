@@ -74,7 +74,6 @@
 #define P1_32 (1<<10)
 
 // R30 output bits on pru0
-#define P8_12   (1<<14)
 #define P9_31   (1<<0)
 #define P9_29   (1<<1)
 #define P9_30   (1<<2)
@@ -83,6 +82,24 @@
 #define P9_27   (1<<5)
 #define P9_91   (1<<6)
 #define P9_25   (1<<7)
+#define P8_12   (1<<14)
+#define P8_11   (1<<15)
+
+// R30 output bits on pru1
+#define P8_45   (1<<0)
+#define P8_46   (1<<1)
+#define P8_43   (1<<2)
+#define P8_44   (1<<3)
+#define P8_41   (1<<4)
+#define P8_42   (1<<5)
+#define P8_39   (1<<6)
+#define P8_40   (1<<7)
+#define P8_27   (1<<8)
+#define P8_29   (1<<9)
+#define P8_28   (1<<10)
+#define P8_30   (1<<11)
+#define P8_21   (1<<12)
+#define P8_20   (1<<13)
 
 // R30 output bits on pru0 on Pocket
 #define P1_36   (1<<0)

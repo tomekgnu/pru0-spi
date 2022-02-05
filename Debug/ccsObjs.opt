@@ -1,1 +1,1 @@
-"./delay.obj" "./main.obj" "./spi8343.obj" "./transfer.obj" "../AM335x_PRU.cmd" -llibc.a 
+"./delay.obj" "./main.obj" "../AM335x_PRU.cmd" -llibc.a 

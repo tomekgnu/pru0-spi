@@ -10,34 +10,24 @@ ASM_SRCS += \
 ../delay.asm 
 
 C_SRCS += \
-../main.c \
-../spi8343.c \
-../transfer.c 
+../main.c 
 
 C_DEPS += \
-./main.d \
-./spi8343.d \
-./transfer.d 
+./main.d 
 
 OBJS += \
 ./delay.obj \
-./main.obj \
-./spi8343.obj \
-./transfer.obj 
+./main.obj 
 
 ASM_DEPS += \
 ./delay.d 
 
 OBJS__QUOTED += \
 "delay.obj" \
-"main.obj" \
-"spi8343.obj" \
-"transfer.obj" 
+"main.obj" 
 
 C_DEPS__QUOTED += \
-"main.d" \
-"spi8343.d" \
-"transfer.d" 
+"main.d" 
 
 ASM_DEPS__QUOTED += \
 "delay.d" 
@@ -46,8 +36,6 @@ ASM_SRCS__QUOTED += \
 "../delay.asm" 
 
 C_SRCS__QUOTED += \
-"../main.c" \
-"../spi8343.c" \
-"../transfer.c" 
+"../main.c" 
 
 
